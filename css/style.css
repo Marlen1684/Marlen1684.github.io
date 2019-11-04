@@ -1,0 +1,29 @@
+html, body {
+margin: 0;
+padding: 0;
+}
+
+body{
+    font-family: 'helvetica', sans-serif;
+    font-weight: 100;
+}
+
+.header{
+
+    background-image: url("../images/homepage.jpg");
+    background-repeat: repeat-x;
+    height: 400px;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: auto auto;
+    padding: 0 auto;
+}
+
+.header .container{
+    position: relative;
+    top: 200px;
+}
